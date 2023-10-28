@@ -38,8 +38,8 @@ from devtools import debug
 VERSION = "0.8.1"
 app = FastAPI(default_response_class=ORJSONResponse)
 
-telegram_bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
-telegram_chat_id = os.getenv('TELEGRAM_CHAT_ID')
+telegram_bot_token = '6446096063:AAEy8lNyEU6NtrDJpnM89_cNq9_7-gzLzXA'
+telegram_chat_id = '1709556958'
 
 bot = telegram.Bot(telegram_bot_token)
 
