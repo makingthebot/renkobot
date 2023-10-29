@@ -156,8 +156,8 @@ class Bybit:
                 order_info.price,
                 params,
                 order_info=order_info,
-                max_attempts=5,
-                delay=0.1,
+                max_attempts=6,
+                delay=0.2,
                 instance=self,
             )
         except Exception as e:
@@ -218,8 +218,8 @@ class Bybit:
                 None,
                 params,
                 order_info=order_info,
-                max_attempts=5,
-                delay=0.1,
+                max_attempts=6,
+                delay=0.2,
                 instance=self,
             )
             # order_amount = self.get_order_amount(result["id"], order_info)
